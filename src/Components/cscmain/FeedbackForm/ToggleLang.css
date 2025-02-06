@@ -1,0 +1,31 @@
+.toggle-containerr {
+    background: #16a34a;
+    color: #ffffff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 16px;
+    width: 145px; /* Reduced width */
+  
+    
+    span {
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 16px;
+        transition: all ease-in 0.3s;
+    }
+    .activee {
+        background: #ffffff;
+        color: #16a34a;
+        padding: 10px;
+        border-radius: 16px;
+    }
+}
+.containerr{
+    display: flex;
+    justify-content: flex-end;
+
+}
